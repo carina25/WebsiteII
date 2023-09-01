@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Acerca de Mí</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<header>
+<h1>Acerca de Mí</h1>
+</header>
+<section>
+<!-- Subsección de Información Personal -->
+<div id="info-personal">
+<h2>Información Personal</h2>
+<p>Nombre: Karina Elizabeth gomez</p>
+<p> Edad: 29 </p>
+</p>Ciudad: Córdoba</p>
+<!-- Subsección de Habilidades -->
+<div id="habilidades">
+<h2>Habilidades</h2>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript básico</li>
+</ul>
+</div>
+</section>
+<footer>
+Copyright (c) 2023. Todos los derechos reservados.
+</footer>
+</body>
+</html>
+<!-- ... Resto del código HTML ... -->
+<footer>
+Copyright (c) 2023. Todos los derechos reservados.
+</footer>
+<title>Título de tu página</title>
+<!-- Aquí se añade el <link> para vincular el archivo styles.css -->
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+/* Estilos para el header */
+header {
+background-color: #f1f1f1;
+padding: 20px;
+text-align: center;
+}
+/* Estilos para las subsecciones */
+#info-personal, #habilidades {
+margin: 20px;
+padding: 20px;
+border: 1px solid #ccc;
+}
+/* Estilos para los títulos de subsecciones */
+#info-personal h2, #habilidades h2 {
+font-size: 24px;
+}
+/* Estilos para la lista de habilidades */
+#habilidades ul {
+list-style-type: square;
+}
+/* Estilos para el footer */
+footer {
+background-color: #f1f1f1;
+color: #333;
+text-align: center;
+padding: 10px;
+position: absolute;
+bottom: 0;
+width: 100%;
+}
+/* Estilos básicos aquí (los mismos que antes) */
+/* Media Queries para hacer la página responsiva */
+/* Estilos para pantallas pequeñas (móviles) */
+@media only screen and (max-width: 600px) {
+/* Podemos ajustar el padding del encabezado y las subsecciones */
+header, #info-personal, #habilidades {
+padding: 10px;
+}
+/* Y también cambiar el tamaño de la fuente del título */
+h1, h2 {
+font-size: 18px;
+}
+}
+/* Estilos para pantallas medianas (tabletas) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+/* Aquí podríamos mantener el padding del encabezado y las
+subsecciones igual */
+header, #info-personal, #habilidades {
+padding: 20px;
+}
+/* Pero quizás queremos que los títulos sean un poco más grandes que
+en móviles pero menores que en desktop */
+h1, h2 {
+font-size: 22px;
+}
+}
+/* Estilos para pantallas grandes (desktops) */@media only screen and (min-width: 1025px) {
+/* Aquí podríamos aumentar el padding del encabezado y las
+subsecciones */
+header, #info-personal, #habilidades {
+padding: 30px;
+}
+/* Y hacer que los títulos sean más grandes */
+h1, h2 {
+font-size: 28px;
+}
+}
